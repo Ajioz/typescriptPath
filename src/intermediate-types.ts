@@ -46,6 +46,7 @@ console.log(person.role); //push is an exception on tuple which allows more data
 for (const hobby of person.hobbies) {
     console.log(hobby);
 }
+
 if (person.role === Role.ADMIN) {
     console.log('THis is ADMIN');
 }
